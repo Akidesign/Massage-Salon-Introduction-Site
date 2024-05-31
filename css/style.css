@@ -1,0 +1,20 @@
+@use "./base/base";
+@use "./base/reset";
+@use "./global" as *;
+
+.header {
+  padding: 40px 0 0 60px;
+  background-color: #ece9ed;
+  @media (max-width: 768px) {
+    padding: 16px 0 0 20px;
+  }
+}
+
+.header_title {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: Noto Serif JP;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
